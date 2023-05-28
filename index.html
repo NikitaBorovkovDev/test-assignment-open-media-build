@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+		<script type="module" crossorigin src="/assets/index-1740de5a.js"></script>
+		<link rel="stylesheet" href="/assets/index-11ba7da8.css">
+	</head>
+	<body>
+		<header class="header container">
+			<div class="header__heading-container">
+				<h1 class="header__heading font-regular">
+					Play any audio sources directly in the browser!
+				</h1>
+			</div>
+			<div class="audio-player header__audio-player" id="audio-player">
+				<div class="form">
+					<noscript class="form__heading-warning"></noscript>
+					<h3 class="font-light form__heading">
+						<noscript class="form__heading-warning-title">
+							You need enable javascript
+						</noscript>
+						Insert the link
+					</h3>
+					<form class="form__container">
+						<input
+							type="text"
+							class="font-light form__input"
+							disabled
+							placeholder="https://" />
+						<button type="text" class="form__button" disabled>
+							<span class="form__icon"></span>
+						</button>
+					</form>
+				</div>
+			</div>
+			<p class="font-light header__terms">
+				<span class="font-light">
+					Without any restrictions for free
+				</span>
+				<span>
+					By uploading the audio file, you agree to our
+					<a href="#" class="font-regular header__terms-link">
+						Terms of Service.
+					</a>
+				</span>
+			</p>
+		</header>
+		<main class="container">
+			<section class="description">
+				<div class="description__text-container">
+					<h2 class="font-regular description__heading">
+						How It Works
+					</h2>
+					<p class="font-light description__paragraph">
+						Lorem Ipsum is a "fish" text often used in print and web
+						design. Lorem Ipsum has been the standard "fish" for
+						Latin texts since the early 16th century. At that time,
+						an unnamed printer created a large collection of font
+						sizes and shapes, using Lorem Ipsum for print samples.
+					</p>
+				</div>
+				<div class="description__illustration-container">
+					<div class="description__yellow-squares">
+						<div class="description__yellow-square">
+							<div></div>
+						</div>
+					</div>
+
+					<div class="description__pictures">
+						<div class="description__picture">
+							<div class="description__picture_background">
+								<img src="data:image/png;base64,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" alt="AWS" />
+							</div>
+						</div>
+						<div class="description__picture">
+							<div class="description__picture_background">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAA4CAYAAACMn7TeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR8SURBVHgB7VyNedpADBX9OgAbxJ0gyQRJJ0gyQdgg6QTQCUgnoJmAZAKzAekEphNAJni9y8npnXwG2/xY/LzvUyDHAfKzTpZ0Mh1SBgBd83Bh5NxIwtIV02Ysf4y8dTqdGZ0QwhJp5MFIimbIjAyNXNCxw5BwbWRkZI7NYWrkno4N5qATJnOZ1d1byzNyJt7b5fEbI32UW3d2NOSaA31E0TLnTNAVNQCfpB5bqcTIvk6HCLawtITMLm0I9sREyM1waP6WLSkTBzrcJJmR7+xFvvORDgERQrOmy7zhd48FsQPaZ5QQmtCOwS5m/4mF86E+odNtLvcK+khib2nfgDBkyqDgCiyInWvQqTL4IqGK0BxGl9+ebintAyJ+VFUAHnFL+iMCsexHpBBw6bHvBlrz9SvBVroXPkuc/D5pxd4oSlED0GmtwlclpBzCCB5IG4xSt9p9qYTwrfoiAXHWd5KGbgJidV2rcgOecnNSDPalA7iKWVlxPGMjaS/rQuj0VQbUbIUp6iNDGzVZhL5pSApRQmhO2JBljOUWPKBdAW7TLofKLQy41TRnIvsQ2zSR+VeIb/lkO7FahIUKtRcpNKj+88kYRojd7k4C9vTKXwco1jTmZcR+oRMqgRs2Lo288JANvdKYKziRWgOG2IWRO/N0wkOW2LGc95VqgM3dyhl/oJUZhW05eis+m4MldkquJcn2IPQN2T8rv9tz1FW7SPTl0FsAXEOH719XGxNcMfcJ9WG/4DC2glcAYdTzWZXrlExOzIPNjBJveEHOSb+RW/ILHrdnyKZzPfExT2ZJ/KADBltnRo4Dy8c363djEy8QLvVKXSQo9kft18ZaQyCMYe9jE2QsNq1LDP53hhxFWyPCFH0UmyAJPYYr+drwVnYmXxh4hGYnQqsDYUNcNx+U27YJKQO7lZFS3UYed2f5YG+pX2gRKIZ2c+jrJfBJvcoHU29QzQUG8RbMHANSgjJS4462RSDecS2RQkeP1jhY/gjTrTG1DMQzudR7PhVkZ20TK/TrqtsKQbFJt49wD2yEGrXNHen8ecLt/7L0t6D28YsfrS7XseoP1za/k0uZLSZm7I1agDVK798PHWzpzycyoZZhyJnAFWRevTv5upF59rVLuELGM7UHPxKZfPxlH/bpu0ghhItS06OFkn6sL1xVya31AjozqXPveSvLvAQ97/lLUKFCWGm5IWUQFy8VcbSwUotETlDdqAVlcTSKaX2/bGLqTVJTuYfCFFqsnGzZRNmy3foyQzEeTahFoHgraLZSJ4S+tXVixQG0aqVwmWfWiB8UG7kGtGOwhU5rWcT2dLHWORCc1DM4xO92tgd1jy2HW3AuSG6H73zFMAcxXYAKW0ydJR9sr2iDyEsTcnHtJlNaS1pC8d9KuWuSgsLVMZoYQZku9nifajVNlCiWoPnvmqyDtX8HAOV12K3r0qkyCW752c6TvO1nG5iRy5YmRp6j++c1ABfqJNQMM9bDymtdXSqRKgG3D5PQ+ng3Yu8ReF+XRAnUb+n80MXo8ZfWxD85OoXidTVbpAAAAABJRU5ErkJggg==" alt="Cloud" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="technical-requirements">
+				<div class="technical-requirements__tab">
+					<table class="technical-requirements__table">
+						<caption
+							class="font-light technical-requirements__table-heading">
+							Technical requirements
+						</caption>
+						<thead class="technical-requirements__table-head">
+							<tr
+								class="technical-requirements__table-subheadings">
+								<th>
+									<button
+										class="font-light technical-requirements__table-button technical-requirements__table-button_active">
+										Own server
+									</button>
+								</th>
+								<th>
+									<button
+										class="font-light technical-requirements__table-button">
+										Amazon Instance
+									</button>
+								</th>
+							</tr>
+						</thead>
+						<tbody
+							class="font-light technical-requirements__table-body">
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									OS + apps
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									Unix/OSX + docker + nvidia-docker
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Free space
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									100 GB of free space
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									CPU
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									4 cores or more (e.g. intel core i5)
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Graphics hardware
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									GPU: NVidia only 2Gb+
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Memory
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									16 GB RAM
+								</td>
+							</tr>
+						</tbody>
+						<tbody
+							class="font-light technical-requirements__table-body hide">
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Instance
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									g4dn.xlarge
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									GPU
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									1
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									vCPUs
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									4
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Memory
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									16 GB RAM
+								</td>
+							</tr>
+							<tr class="technical-requirements__table-row">
+								<th
+									class="technical-requirements__table-row-title">
+									Storage
+								</th>
+								<td
+									class="technical-requirements__table-row-item">
+									125 GB
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</main>
+		<section class=""></section>
+		
+	</body>
+</html>
